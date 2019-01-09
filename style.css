@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    background: url(images/Background.png.jpg);
+    background: url(Images/Background.png.jpg);
     background-position: right bottom;
     background-size: cover;
     width: 100%;
