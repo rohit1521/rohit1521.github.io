@@ -20,7 +20,7 @@ body{
 }
 
 .container{
-    background: url(Images/Background.png.jpg);
+    background: url(Images/Background.jpg);
     background-position: right bottom;
     background-size: cover;
     width: 100%;
@@ -421,7 +421,7 @@ nav ul li a:hover{
 
 .container2{
     margin-top: -6px;
-    background: url(images/Bg2.png);
+    background: url(Images/Bg2.png);
     background-position: center;
     background-size: cover;
     width: 99.1vw;
