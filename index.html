@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <title>Rohit | Portfolio</title>
+  </head>
+  <body>
+    
+    <div class="container">
+        <nav>
+            <input type="checkbox" name="" id="nav" class="hidden">
+            <label for="nav" class="nav-btn">
+                <i></i>
+                <i></i>
+                <i></i>
+            </label>
+            <div class="logo">
+                <a href="#">ROHIT</a>
+            </div>
+            <div class="nav-wrapper">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Works</a></li>
+                    <li><a href="#">Contact Me</a></li>        
+                </ul>
+            </div>
+        </nav>
+
+            <div class="vertical-ln">
+                    <h2 >CREATIVE</h2>
+                    <h2>DEVELOPER</h2>
+                </div>
+            
+                <div class="intro-content">
+                    <p>I am a young graphic Designer and Developer.  <br>
+                            I can take project from idea to concept <br>
+                             and then to completion. </p>
+                </div>
+            
+                <a href=""><div class="intro-btn">
+                    Hire Me!
+                </div></a> 
+            
+    </div>
+    <div class="container2">
+        <div id="element-to-animate" class="mypic animated">
+            <img src="images/Mypic.png" alt="" srcset="">
+        </div>
+        <div class="mytext">
+            <h2 id="mytextid" class="animated" >About Me</h2>
+            <p id="pid" class="animated ">
+                    “Hi, my name is Rohit and I specialize in designing UI/UX 
+                    and building websites for small businesses and personal 
+                    use.  I discovered my passion for designing and developing
+                     quite by accident. The experience of teaching myself about
+                     this field has been both challenging and extremely rewarding.
+                     I wake up excited about continuing to grow in this rapidly-evolving industry.”
+            </p>
+                <img src="Images/Group 11.png" alt="">
+            
+            <div class="bottomtext">
+                <p>More About Me </p>
+                <div class="bottomicons">
+                    <a href="#"><img src="Images/Facebook Icon.png" alt=""></a>
+                    <a href="#"><img src="Images/Instagram Icon.png" alt=""></a>
+                    <a href="#"><img src="Images/Linked In Icon.png" alt=""></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="jquery.waypoints.min.js"></script>
+<script>
+    $(document).ready(function(){
+ 
+ // hide our element on page load
+ $('#element-to-animate').css('opacity', 0);
+
+ $('#element-to-animate').waypoint(function() {
+    $('#element-to-animate').css('opacity', 1),
+     $('#element-to-animate').addClass('zoomIn');
+ }, { offset: '50%' }),
+
+ $('#pid').css('opacity', 0);
+ $('#pid').waypoint(function() {
+    $('#pid').css('opacity', 1),
+     $('#pid').addClass('zoomIn');
+ }, { offset: '50%' }),
+
+
+ 
+ $('#mytextid').css('opacity', 0);
+
+ $('#mytextid').waypoint(function() {
+    $('#mytextid').css('opacity', 1),
+     $('#mytextid').addClass('fadeInDown');
+ }, { offset: '50%' });
+
+});
+</script>  
+
+</body>
+</html>
